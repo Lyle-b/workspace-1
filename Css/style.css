@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header {
+  position: absolute;
+  width: 90%;
+  padding: 10px;
+  top: 4%;
+}
+header div ul {
+  gap: 7%;
+  list-style: none;
+  font-size: 13px;
+  flex-direction: rtl;
+}
+header div ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+}
+
+#hero {
+  height: 100vh;
+  width: 100%;
+  background: url(../images/header.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+#about .about-inner {
+  gap: 3%;
+  margin: #ebeaea;
+}
+#about .about-inner h4 {
+  color: #646464;
+  font-size: x-large;
+}
+#about .about-inner p {
+  color: #646464;
+}
+
+#sign-up {
+  width: 100%;
+}
+#sign-up .sign-up-inner {
+  gap: 10%;
+  width: 100%;
+}
+#sign-up .sign-up-inner img {
+  margin-bottom: 3%;
+}
+#sign-up .sign-up-inner button {
+  margin: 0 auto;
+  width: -moz-max-content;
+  width: max-content;
+  font-size: x-large;
+  border: none;
+  padding: 1% 3%;
+}
+#sign-up .sign-up-inner p {
+  width: 95%;
+  margin: 0 auto;
+  padding-bottom: 3%;
+}
+
+#newsletter {
+  margin-top: 10px;
+}
+#newsletter div form {
+  gap: 2%;
+}
+#newsletter div form .button {
+  /* margin: 0 auto; */
+  border: none;
+  padding: 1% 2%;
+  color: #fff;
+  font-weight: 800;
+  margin: 0 auto;
+}
+#newsletter div form .inputName {
+  /* margin: 0 auto; */
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: none;
+}
+#newsletter div form .inputName2 {
+  /* margin: 0 auto; */
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: none;
+}
+#newsletter div h3 {
+  margin-bottom: 10px;
+}
+
+footer {
+  flex-direction: column;
+  background-color: #2c1d05;
+  padding: 10px;
+}
+footer .footer-inner {
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+footer div ul {
+  list-style: none;
+  gap: 7px;
+  font-size: medium;
+  margin-top: 10px;
+}
+footer div ul a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+  margin: 0 auto;
+}
+
+hr {
+  width: 100%;
+  border-color: #858484;
+  size: 100%;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+span {
+  color: #fff;
+  font-weight: 400;
+  font-size: 70%;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}/*# sourceMappingURL=style.css.map */
